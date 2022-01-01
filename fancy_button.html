@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy BUtton</title>
+    <style>
+        body{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            height: 100vh/*vh(view height)*/;
+            background-color: rgb(11, 1, 44);
+        }
+        button{
+             background: none;
+             color:rgb(243, 138, 0);
+             border:2px solid ;
+             padding: 1em 2em;
+             font-size: 1em;
+             transition:all 0.25s;
+        }
+        button:hover{
+            border-color:yellowgreen;
+            box-shadow: 4px 3px 10px 5px rgba(233, 243, 138, 0.7);
+            transform: translateY(-7px);
+            cursor:pointer;
+            
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <button>Hover me</button>
+</body>
+</html>
